@@ -10,12 +10,12 @@ echo $capitals["Japan"];
 
 $capitals["USA"] = "New York";
 $capitals["China"] = "Beijing";
-array_pop($capitals);
-array_shift($capitals);
-$keys = array_keys($capitals);
-$values = array_values($capitals);
-$array_flip =array_flip($capitals);
-$array_reverse = array_reverse($capitals);
+array_pop($capitals); //removes the last element
+array_shift($capitals); //removes the first element
+$keys = array_keys($capitals); //returns an array of keys
+$values = array_values($capitals); //returns an array of values
+$array_flip =array_flip($capitals); // flip keys and values
+$array_reverse = array_reverse($capitals); //reverses the array
 
 echo count($capitals);
 
