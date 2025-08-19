@@ -3,10 +3,19 @@
     $username = "Ching Fong";
     $phone = "012-345-6789";
 
-    $username = strtolower($username);
+    $username = strtolower($username); // convert to lowercase
     echo $username . "<br>";
 
-    $username = strtoupper($username);
+    $username = strtoupper($username); // convert to uppercase
+    echo $username . "<br>";
+
+    $username = ucfirst($username); // convert first letter to uppercase
+    echo $username . "<br>";
+
+    $username = ucwords($username); // convert each word to uppercase
+    echo $username . "<br>";
+
+    $username = lcfirst($username); // convert first letter to lowercase
     echo $username . "<br>";
 
     $username = trim($username);
@@ -50,4 +59,8 @@
     }
 
     $username = implode(" ", $fullname);
+    echo $username . "<br>";
+
+    $username = "Ching Fong";
+    $username = str_word_count($username);
     echo $username . "<br>";
