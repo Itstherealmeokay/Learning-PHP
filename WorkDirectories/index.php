@@ -29,8 +29,8 @@ if(file_exists('foo.txt')){
 $file = fopen('foo.txt', 'r');
 //modes
 //r = read
-//w = write
-//a = append
+//w = write (old data will be deleted)
+//a = append (old data will not be deleted)
 //x = create
 //r+ = read and write
 //w+ = write and read

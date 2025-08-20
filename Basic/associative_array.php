@@ -16,6 +16,7 @@ $keys = array_keys($capitals); //returns an array of keys
 $values = array_values($capitals); //returns an array of values
 $array_flip =array_flip($capitals); // flip keys and values
 $array_reverse = array_reverse($capitals); //reverses the array
+$array_rand = array_rand($capitals,2); //returns 2 random keys
 
 echo count($capitals);
 

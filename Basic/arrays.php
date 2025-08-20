@@ -4,22 +4,21 @@
 
 $foods = array("apple", "orange", "banana", "coconut");
 
-//$foods[0] = "pineapple";
-//array_push($foods, "pineapple", "kiwi");
-//array_pop($foods);
-//array_shift($foods);
+//$foods[0] = "pineapple"; // Replacing an element
+//array_push($foods, "pineapple", "kiwi"); // Adds to end of Array 
+//array_pop($foods); // Removes last element
+//array_shift($foods); // Removes first element
+//array_unshift($foods, "pineapple", "kiwi"); // Adds to beginning of array
+array_splice($foods, 1, 2);
 $reveresed_foods = array_reverse($foods);
-echo $foods[0] . "<br>";
-echo $foods[1] . "<br>";
-echo $foods[2] . "<br>";
-echo $foods[3] . "<br>";
+
 
 foreach($foods as $food){
     echo $food . "<br>";
 }
-
+/*
 foreach($reveresed_foods as $rfood) {
     echo $rfood . "<br>";
 }
-
+*/
 ?>
