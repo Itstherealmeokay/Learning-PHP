@@ -1,0 +1,39 @@
+1. print a statement
+2. b
+3. start with // or #
+4. don't know
+5. $
+6. true, false
+7. float
+8. remainder of 5 divided by 2
+9.  $x = 4; 
+    if($x%2 == 0){echo "even"} else {echo "odd"};
+10. For loops
+11. $x = array()
+12. index have index, associative arrays have key value pairs
+13. in_array(value, array)
+14. foreach($fruits as $fruit) {echo $fruit};
+15. function abc ()
+16. function add($a, $b){
+        return $a + $b;
+    }
+
+17. don't know
+
+18. $_POST
+19. $username = $_POST["username"]
+20. $_GET is stored in url, $_POST is packaged in the form request
+
+21. dont know
+22. fopen(data.txt, r)
+23. $counter = 1
+    for($i = counter; $i < 10; $i++){
+
+        echo $i
+    }
+
+24. dont know
+25. dont know
+
+
+/^\d{4}-\d{4}$\
