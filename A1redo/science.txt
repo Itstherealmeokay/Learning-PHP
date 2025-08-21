@@ -1,0 +1,7 @@
+What is the boiling point of water?|90°C|100°C|80°C|100°C
+What is the chemical symbol for gold?|Ag|Au|As|Au
+Which gas do plants use for photosynthesis?|Oxygen|Carbon Dioxide|Nitrogen|Carbon Dioxide
+Which of these is a compound?|O₂|H₂O|He|H₂O
+How many legs does an insect have?|8|6|100|6
+What is the pH of a neutral substance like pure water?|0|7|14|7
+Which state of matter has no fixed shape but a definite volume?|Solid|Liquid|Gas|Liquid

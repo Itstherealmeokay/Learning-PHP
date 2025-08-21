@@ -7,6 +7,10 @@ if (!isset($_SESSION["username"]) && !isset($_SESSION["subject"])){
     header("Location: index.php");
 }
 
+if(isset($_SESSION["overallscore"])){
+    var_dump($_SESSION["overallscore"]);
+}
+
 $username = $_SESSION["username"];
 $subject = $_SESSION["subject"];
 $filename = "math.txt";
@@ -14,6 +18,7 @@ $filename = "math.txt";
 $questions = file($filename, FILE_IGNORE_NEW_LINES);
 shuffle($questions);
 $selected_questions = array_slice($questions, 0, 2);
+$_SESSION["questions"] = $selected_questions;
 
 ?>
 
@@ -27,13 +32,15 @@ $selected_questions = array_slice($questions, 0, 2);
 <body>
     <form action="result.php" method="post">
         <?php
-        foreach ($selected_questions as $question) {
+        foreach ($selected_questions as $index => $question) {
             list($question_text, $answer) = explode("|", $question);
             echo "<label>$question_text</label>";
-            echo "<input type='text' name='answer[]'>";
+            echo "<input type='text' name='answers[$index]'>";
             echo "<br>";
         }
+        
         ?>
         <input type="submit" value="Submit">
+    </form>
 </body>
 </html>

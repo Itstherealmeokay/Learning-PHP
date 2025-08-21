@@ -40,6 +40,8 @@ if(isset($_POST["submit"]) && isset($_POST["subject"])){
         </select>
         <input type="submit" name="submit" value="submit">
     </form>
+    <button onclick="location.href = 'leaderboard.php';">Leaderboard</button>
+    <button onclick="location.href = 'logout.php';">Logout</button>
 
 </body>
 </html>
