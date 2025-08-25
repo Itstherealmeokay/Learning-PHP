@@ -10,7 +10,7 @@ function revNum ($num) {
     return $num;
 }
 
-$y = 4251;
+$y = 123;
 $y = revNum($y);
 echo $y;
 ?>
